@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li,
+pre,
+form, fieldset, legend, button, input, textarea,
+th, td{
+    margin: 0;
+    padding: 0;
+}
+
+body,
+button, input, select, textarea {
+    font: 14px/1.5 Helvetica, Tahoma, Arial, "Microsoft YaHei", "\5fae\8f6f\96c5\9ed1", SimSun, "\5b8b\4f53", STXihei, "\534e\6587\7ec6\9ed1", Heiti, "\9ed1\4f53", sans-serif;
+}
+input, textarea {
+    box-sizing: inherit;
+    outline: none;
+}
+input[type='checkbox'],
+input[type='radio']{
+    cursor: pointer;
+}
+
+h1 { font-size: 18px; font-weight: normal;}
+h2 { font-size: 16px; font-weight: normal;}
+h3 { font-size: 14px; font-weight: normal;}
+h4, h5, h6 { font-size: 100%; font-weight: normal;}
+
+address, cite, dfn, em, var { font-style: normal; }
+code, kbd, pre, samp { font-family: courier new, courier, monospace; }
+small { font-size: 12px; }
+
+ul, ol { list-style: none; }
+
+a, a:active, a:visited, a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+a,*:active, *:visited, *:hover {
+   color: inherit;
+}
+
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+
+fieldset, img { border: none; }
+button, input, select, textarea { font-size: 100%; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr {border: none;height: 1px;}
+
+abbr[title], acronym[title] {border-bottom: 1px dotted;cursor: help;}
+q:before, q:after { content: ''; }
+
+article, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section,
+summary, time, mark, audio, video {display: block;margin: 0;padding: 0;}
+mark { background: #ff0; }
